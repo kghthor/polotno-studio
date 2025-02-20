@@ -1,7 +1,7 @@
 import { sentryVitePlugin } from "@sentry/vite-plugin";
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite' l
 import react from '@vitejs/plugin-react'
-
+ 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), sentryVitePlugin({
